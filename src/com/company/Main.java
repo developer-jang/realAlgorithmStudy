@@ -1,10 +1,20 @@
 package com.company;
 
-import com.company.week2.SecretMap;
+import com.company.week2.LargeNumber;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        LargeNumber largeNumber = new LargeNumber();
+        largeNumber.getLargerNumber("4177252841", 4);
+
+//        SecretMap secretMap = new SecretMap();
+//        int arr1[] = {9, 20, 28, 18, 11};
+//        int arr2[] = {30, 1, 21, 17, 28};
+//        secretMap.getSecretMap(5, arr1, arr2);
+//        System.out.println(secretMap.getSecretMap(5, arr1, arr2));
+//
 //        int baseball [][] = {
 //                {123, 1, 1}, {356, 1, 0}, {327, 2, 0}, {489, 0, 1}
 //        };
@@ -24,10 +34,5 @@ public class Main {
 //        String largeNumber3 = largestNumber3.getLargestNumber(numbers);
 //        System.out.println(largeNumber3);
 
-        SecretMap secretMap = new SecretMap();
-        int arr1[] = {9, 20, 28, 18, 11};
-        int arr2[] = {30, 1, 21, 17, 28};
-        secretMap.getSecretMap(5, arr1, arr2);
-        System.out.println(secretMap.getSecretMap(5, arr1, arr2));
     }
 }
