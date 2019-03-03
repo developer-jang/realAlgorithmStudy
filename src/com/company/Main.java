@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.week1.LargestNumber3;
+import com.company.week2.SecretMap;
 
 public class Main {
 
@@ -11,7 +11,7 @@ public class Main {
 //        NumberBaseBall numberBaseBall = new NumberBaseBall();
 //        numberBaseBall.numberBaseBall(baseball);
 
-        int numbers[] = {3, 29, 7, 9, 90};
+//        int numbers[] = {3, 29, 7, 9, 90};
 //        LargestNumber largestNumber = new LargestNumber();
 //        String largeNumber = largestNumber.getLargestNumber(numbers);
 //        System.out.println(largeNumber);
@@ -20,8 +20,14 @@ public class Main {
 //        String largeNumber2 = largestNumber2.getLargestNumber(numbers);
 //        System.out.println(largeNumber2);
 
-        LargestNumber3 largestNumber3 = new LargestNumber3();
-        String largeNumber3 = largestNumber3.getLargestNumber(numbers);
-        System.out.println(largeNumber3);
+//        LargestNumber3 largestNumber3 = new LargestNumber3();
+//        String largeNumber3 = largestNumber3.getLargestNumber(numbers);
+//        System.out.println(largeNumber3);
+
+        SecretMap secretMap = new SecretMap();
+        int arr1[] = {9, 20, 28, 18, 11};
+        int arr2[] = {30, 1, 21, 17, 28};
+        secretMap.getSecretMap(5, arr1, arr2);
+        System.out.println(secretMap.getSecretMap(5, arr1, arr2));
     }
 }
