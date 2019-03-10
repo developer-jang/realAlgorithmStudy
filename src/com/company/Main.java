@@ -1,13 +1,16 @@
 package com.company;
 
-import com.company.week2.LargeNumber;
+import com.company.week3.UnfinishedPlayer;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        LargeNumber largeNumber = new LargeNumber();
-        largeNumber.getLargerNumber("4177252841", 4);
+        String[] participant = {"mislav", "stanko", "mislav", "ana"};
+        String[] completion = {"mislav", "stanko", "ana"};
+        UnfinishedPlayer unfinishedPlayer = new UnfinishedPlayer();
+        unfinishedPlayer.getUnfinishedPlayer(participant, completion);
+//        LargeNumber largeNumber = new LargeNumber();
+//        largeNumber.getLargerNumber("4177252841", 4);
 
 //        SecretMap secretMap = new SecretMap();
 //        int arr1[] = {9, 20, 28, 18, 11};
